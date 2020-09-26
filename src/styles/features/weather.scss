@@ -1,0 +1,50 @@
+/* ----- WEATHER ----- */
+
+/*  FORM */
+.weather-form {
+  display: flex;
+  justify-content: space-between;
+}
+
+/* LIST + ITEM */
+.weather-list {
+  background: rgba(0, 102, 236, 0.836);
+  padding: 10px;
+  list-style: none;
+  display: flex;
+  justify-content: space-around;
+
+  &-item {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    min-width: 90px;
+    box-shadow: 2px 2px 3px 3px rgba(0, 0, 0, 0.3);
+    background: rgba(255, 255, 255, 0.4);
+    border-radius: 8px;
+    & * {
+      padding: 5px 10px;
+    }
+
+    & .important {
+      background: rgba(255, 255, 255, 0.5);
+      display: flex;
+      flex-flow: column nowrap;
+      justify-content: center;
+    }
+
+    & .time {
+      font-size: 1.15rem;
+    }
+
+    & .temp {
+      font-weight: bold;
+      font-size: 1.2rem;
+    }
+
+    & .description {
+      text-transform: uppercase;
+      color: #111;
+    }
+  }
+}

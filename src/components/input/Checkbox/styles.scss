@@ -1,0 +1,12 @@
+.checkbox {
+  margin: 10px 15px;
+
+  & .reacts-check {
+    margin: 5px 0;
+    position: relative;
+  }
+  & label {
+    display: inline-block;
+    margin-left: 5px;
+  }
+}

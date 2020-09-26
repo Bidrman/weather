@@ -1,0 +1,17 @@
+.todo-form {
+  display: flex;
+  justify-content: space-between;
+
+  & .cleaner {
+    box-shadow: 2px 2px 2px 2px rgba(0, 0, 0, 0.4);
+  }
+}
+
+.todo-list {
+  list-style: none;
+
+  &-item {
+    font-family: 'Candara';
+    font-size: 1.2rem;
+  }
+}

@@ -1,0 +1,34 @@
+.contact-form {
+  display: flex;
+  flex-flow: column nowrap;
+
+  .btn {
+    width: 100px;
+  }
+}
+
+pre {
+  display: flex;
+  flex-flow: column wrap;
+  max-width: 400px;
+  height: auto;
+}
+
+label {
+  margin: 0 1rem;
+}
+
+.error {
+  background: rgba(220, 35, 55, 0.5);
+  &-quote {
+    margin-left: 1rem;
+    color: rgb(255, 10, 10);
+    font-size: 1.1rem;
+  }
+}
+
+.element {
+  &-row {
+    padding: 8px 0;
+  }
+}

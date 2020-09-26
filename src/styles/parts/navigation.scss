@@ -1,0 +1,17 @@
+.navigation {
+  display: flex;
+  flex-flow: column nowrap;
+  font-size: 1.5rem;
+  background: rgba(243, 189, 27, 0.973);
+
+  &-list {
+    margin: 20px 0;
+    list-style: none;
+    display: flex;
+    justify-content: space-around;
+  }
+}
+
+.body {
+  padding: 30px 0;
+}
