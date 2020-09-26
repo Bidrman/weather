@@ -1,0 +1,11 @@
+weather API klíč
+	165c8bbb35604923b89f37cf29003df3
+	
+	https://api.weatherbit.io/v2.0/forecast/3hourly?city=Raleigh,NC&key=165c8bbb35604923b89f37cf29003df3
+	
+	https://api.weatherbit.io/v2.0/current?city=Prague,cz&key=165c8bbb35604923b89f37cf29003df3
+	
+	
+	následujících 12 hodin
+	
+	https://api.weatherbit.io/v2.0/forecast/hourly?city=Prague,cz&key=165c8bbb35604923b89f37cf29003df3&hours=12

@@ -1,0 +1,38 @@
+- zaktivovat redux pro Todo
+    => "form" pro přidávání nových todo bude součástí Todo, jen bude mít vlastní componentu a form, který se pak přidají do hloupé komponenty Todos (ta vykresluje todočka)
+- zaktivovat redux pro Form
+- napsat Navbar základy
+- prozkoumat react-router
+    => aktivovat react router pro přepínání mezi views
+
+- featura na předpověď počasí s taháním dat z API
+- napojení API
+
+
+_______
+
+To co mám ve zkušebním projektu (siteone), tak index.js odpovídá containeru a list.jsx je components
+_______
+
+
+WeatherAPI
+
+    - weatherbit API zmenili a verze zadarmo stoji za hovno
+
+    api.openweathermap.org/data/2.5/forecast?q=Praha&lang=cz&units=metric&appid=64128163cebd1a19281dea72993d1cd6
+
+
+RADY: 
+    - STORE je vždy jenom 1!! 
+    - pro složitější aplikace používat jen combineReducers => jednotlivé reducery budou vždy ve složce store u featury
+        => combineReducer mění strukturu statu! Proto nemůžeš sahat pak napřímo sahat v mapStateToProps do state.něco, ale musím o úroveň hlouběji, takže state.todos.task
+            combineReducer vytvoří objekt objektů, přičemž každý objekt je initialState jednotlivého reduceru
+    - jednotlivé reducery obsahují vždy svůj initialState
+    - napojení na redux (mapStateToProps, mapDispatchToProps) probíhá v containerech featury/komponenty
+    
+___________
+
+	=> Vytvořit základní verzi mého projektu
+		-> 3 views
+		-> combineReducer
+		-> featury: form, odstavec s obrázkem, slider?, video, fetchAPI
